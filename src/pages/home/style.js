@@ -12,7 +12,6 @@ export const StylePara = styled.p`
 `
 
 export const HeroWrapper = styled.div`
-    padding: 40px 0px;
-    height: 50vh;
+    padding: 100px 0px;
     background: ${colors.light};
 `

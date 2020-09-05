@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { colors, fontSizes, fontWeights } from "../../tokens"
+import { colors, fontWeights } from "../../tokens"
 export const FooterWrapper = styled.div`
     height: 160px;
     text-align: center;

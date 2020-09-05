@@ -5,9 +5,7 @@ import { Container } from "../../components/container"
 export const Layout = ({ children }) => {
     return (
         <React.Fragment>
-            <Container>
-                <Navbar />
-            </Container>
+            <Navbar />
             {children}
             <Container>
                 <Footer />

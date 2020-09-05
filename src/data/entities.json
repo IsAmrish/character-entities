@@ -1,0 +1,42 @@
+[
+    {
+        "csscode": "\u0021",
+        "htmlcode": "\u0020",
+        "name": "space"
+    },
+    {
+        "csscode": "0021",
+        "htmlcode": "\u0021",
+        "name": "exclamation mark"
+    },
+    {
+        "csscode": "0022",
+        "htmlcode": "\u0022",
+        "name": "quotation mark"
+    },
+    {
+        "csscode": "0023",
+        "htmlcode": "\u0023",
+        "name": "number sign"
+    },
+    {
+        "csscode": "0024",
+        "htmlcode": "\u0024",
+        "name": "dollar sign"
+    },
+    {
+        "csscode": "0025",
+        "htmlcode": "\u0025",
+        "name": "percent mark"
+    },
+    {
+        "csscode": "0026",
+        "htmlcode": "\u0026",
+        "name": "ampersand"
+    },
+    {
+        "csscode": "0027",
+        "htmlcode": "\u0025",
+        "name": "apostrophe"
+    }
+]
