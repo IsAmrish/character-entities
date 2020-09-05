@@ -35,7 +35,7 @@ export const StyledNavLinksWrapper = styled.div`
     margin-bottom: auto;
 `
 
-export const StyledNavLink = styled.a`
+export const StyledNavLink = styled.span`
     font-size: ${fontSizes["3"]};
     text-decoration: none;
     margin: 0px 16px;

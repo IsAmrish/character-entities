@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import { StyledInput, StyledFormWrapper } from "./style";
 import { Card } from "../card";
+import { CardLists } from "../../components/card-lists";
 import * as entities from "../../data/entities.json";
 export const Search = () => {
 
     const [inputValue, setInputValue] = useState('');
-    const [searchedValue, setSearchedValue] = useState([]);
+    const [searchedValue, setSearchedValue] = useState(null);
 
     const handleOnChange = (e) => {
         setInputValue(e.target.value);
@@ -15,7 +16,7 @@ export const Search = () => {
     const handleOnSubmit = (e) => {
         e.preventDefault();
         setInputValue('');
-        setSearchedValue([]);
+        setSearchedValue(null);
 
     }
 
@@ -32,6 +33,9 @@ export const Search = () => {
                     searchedValue && searchedValue.map(entity => {
                         return <Card key={entity.name} entity={entity} />
                     })
+                }
+                {
+                    !searchedValue && <CardLists />
                 }
             </StyledFormWrapper>
         </React.Fragment>
